@@ -1,5 +1,5 @@
-import pyttsx3
-import os
+# import pyttsx3
+# import os
 # 1 print a poem,multiline print
 # print('''Twinkle, twinkle, little star,
 # How I wonder what you are!
@@ -37,10 +37,41 @@ import os
 # using os module read directory
 
 # specific directory to list
-directory_path = "/StartingPython"
+# directory_path = "/StartingPython"
 
-# list all file, and directory
-contents = os.listdir(directory_path)
+# # list all file, and directory
+# contents = os.listdir(directory_path)
 
-for item in contents:
-    print(item)
+# for item in contents:
+#     print(item)
+
+# with input function checking number is greater
+
+# a = int(input("Enter the number 1: "))
+# b = int(input("Enter the number 2: "))
+# print("a is greater that b is: ", a>b)
+
+# average of the numbers is
+# a = int(input("Enter the number 1: "))
+# b = int(input("Enter the number 2: "))
+# print("Average of both the number is: ", (a+b)/2)
+
+# square of the number
+# a = int(input("Enter the number: "))
+# print("Square of the number is: ", a**2)
+
+# f string
+
+# name = input("Enter your name: ")
+# print(f"Good morning {name}")
+
+# chainig of .replace
+
+# letter = '''
+#          Dear <|Name|>
+#          you are selected <|Date|>
+#          '''
+# print(letter.replace("<|Name|>", "Anant").replace("<|Date|>", "19 june"))
+
+# name = "Anant is going to market"
+# print(name.find(" "))
