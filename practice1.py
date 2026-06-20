@@ -75,3 +75,41 @@
 
 # name = "Anant is going to market"
 # print(name.find(" "))
+
+# file read
+# try:
+#  with open( "1.txt", "r") as f:
+#     print(f.read())
+# except Exception as e:
+#   print(e)
+
+# try:
+#  with open( "2.txt", "r") as f:
+#     print(f.read())
+# except Exception as e:
+#   print(e)
+
+
+# try:
+#  with open( "3.txt", "r") as f:
+#     print(f.read())
+# except Exception as e:
+#   print(e)
+
+# l= [34, 57, 78, 90, 42, 81, 43]
+
+# for i, item in enumerate(l):
+#     if(i==2 or i==6):
+#         print(item)
+
+# a = int(input("Enter the number: "))
+
+# table = [a*i for i in range(1,11)]
+# print(table)
+
+# write table in another file
+
+n = int(input("Enter a number: "))
+table = [n*i for i in range(1, 11)]
+with open("2.txt", "a") as f:
+  f.write(f"Table for {n}: {str(table)} \n")
